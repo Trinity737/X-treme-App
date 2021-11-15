@@ -1,0 +1,12 @@
+.Weather {
+  background: purple;
+  border: 1 px solid purple;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 60%;
+}
+
+.Weather a {
+  font-size: 25px;
+  font-weight: bold;
+}
