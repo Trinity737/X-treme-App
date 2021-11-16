@@ -1,20 +1,27 @@
 .Weather {
   background: linear-gradient(
-    109.5deg,
-    rgb(13, 11, 136) 9.4%,
-    rgb(86, 255, 248) 78.4%
+    109.6deg,
+    rgb(17, 151, 147) 11.2%,
+    rgb(154, 214, 212) 55.4%,
+    rgb(255, 233, 171) 100.2%
   );
+
   border: 1 px solid purple;
   margin: 0 auto;
   padding: 10px;
-  max-width: 60%;
+  max-width: 50%;
+}
+.Weather h1 {
+  margin: 0 auto;
 }
 
 .Weather a {
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 10px;
 }
 
 .Weather footer {
   text-align: center;
+}
+.Weather li {
+  list-style: none;
 }
