@@ -5,13 +5,12 @@ import Forecast from "./Forecast";
 
 export default function Weather() {
   function handleSubmit(response) {
-    console.log(response.data.name);
-  }
-  let apiKey = "3e2ce69ce76e734e0f6e4dbc39c85c56";
-  let city = "Toronto";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    let apiKey = "3e2ce69ce76e734e0f6e4dbc39c85c56";
+    let city = "Toronto";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
-  axios.get(apiUrl).then(handleSubmit);
+    axios.get(apiUrl).then(handleSubmit);
+  }
 
   return (
     <div className="Weather">
