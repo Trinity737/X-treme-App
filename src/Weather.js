@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 import WeatherForecast from "./WeatherForecast";
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function Weather() {
   const [ready, setReady] = useState(false);
